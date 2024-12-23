@@ -36,7 +36,6 @@ def draw_number_line(hand_id, value, angle, length, color):
         y = center_y + (spacing * i) * math.sin(angle)
         canvas.create_text(x, y, text=str(value), font=("Helvetica", 10), fill=color, tags=hand_id)
 
-# Create the main tkinter window
 root = tk.Tk()
 root.title("Analog Clock with Number Hands")
 
